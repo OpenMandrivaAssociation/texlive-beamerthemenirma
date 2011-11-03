@@ -1,3 +1,9 @@
+# revision 20765
+# category Package
+# catalog-ctan /macros/latex/contrib/beamer-contrib/themes/nirma
+# catalog-date 2010-12-16 01:15:22 +0100
+# catalog-license lppl
+# catalog-version 0.1
 Name:		texlive-beamerthemenirma
 Version:	0.1
 Release:	1
@@ -37,6 +43,7 @@ presentations.
 %files
 %{_texmfdistdir}/tex/latex/beamerthemenirma/beamerthemenirma.sty
 %doc %{_texmfdistdir}/doc/latex/beamerthemenirma/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -47,3 +54,5 @@ presentations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
