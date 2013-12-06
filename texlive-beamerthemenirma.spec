@@ -6,7 +6,7 @@
 # catalog-version 0.1
 Name:		texlive-beamerthemenirma
 Version:	0.1
-Release:	4
+Release:	5
 Summary:	A Beamer theme for academic presentations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/themes/nirma
