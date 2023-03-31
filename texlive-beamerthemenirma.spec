@@ -1,6 +1,6 @@
 Name:		texlive-beamerthemenirma
 Version:	20765
-Release:	1
+Release:	2
 Summary:	A Beamer theme for academic presentations
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer-contrib/themes/nirma
